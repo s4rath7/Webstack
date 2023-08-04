@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SARATH PERSONAL PORTFOLIO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <h1>SARATH</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="frames-container">
+    <div class="frame" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hello, I am Sarath, and this is my personal portfolio. I am passionate about web development and design.</p>
+        <p>Feel free to explore my work and get in touch if you have any questions</p>
+      </div>
+    </div>
+<hr>
+    <div class="frame" id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>Masters In Computer Applications</h3>
+            <p>Christ University, Bangalore</p>
+          </li>
+          <li>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Chinmaya College of Arts, Commerce And Science, Tripunithura</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <hr>
+    <div class="frame" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <h3>Still figuring out :)</h3>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="frame" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://www.example-project1.com" target="_blank">Project 1</a>
+            <p>A project on Crisis Management System</p>
+          </li>
+          <li>
+            <a href="https://www.example-project2.com" target="_blank">Project 2</a>
+            <p>Tourism management </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="frame" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button onclick="sendMessage()">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

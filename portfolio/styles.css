@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url(gettyimages.jpg);
+}
+html{
+  scroll-behavior: smooth;
+}
+nav {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+p{
+  font-size: 26px;
+  font-weight: bold;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 27px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+hr{
+  margin: 0;
+  padding: 0.2rem;
+  border: 0;
+  background-color: #545454;
+}
+
+nav li {
+  margin-top: 1rem;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #f1b500;
+}
+
+.frames-container {
+  padding: 20px;
+}
+
+.frame {
+  /* display: none; */
+  padding: 4rem ;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h1{
+  margin: 0;
+}
+h2 {
+  color: #000000;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ffbf00;
+}
+
+/* Add a nice gradient background to the header section */
+nav {
+  background: linear-gradient(45deg, #000000, #000000);
+}
+
+/* Add a subtle shadow to the main content section */
+.frames-container {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Improve readability of project links */
+ul li a {
+  font-weight: bold;
+}
+
+/* Add a border and padding to the profile image */
+aside img {
+  border-radius: 50%;
+  border: 8px solid #000000;
+  padding: 8px;
+}
