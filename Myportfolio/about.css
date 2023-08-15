@@ -1,0 +1,76 @@
+.header
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+}
+a
+{
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    margin: 0px 10px ;
+}
+body
+{
+    background-color: black;
+    padding: 0px;
+}
+html
+{
+    padding: 0px;
+    /* background-color: rgb(26, 26, 26); */
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+}
+.icons
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ body, html 
+ {
+    height: 100%;
+    background-color: black;
+ }
+
+ .modalbuttonr{
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    /* background-color: white; */
+    color: white;
+    margin: 5px 0px;
+    text-align: center;
+ }
