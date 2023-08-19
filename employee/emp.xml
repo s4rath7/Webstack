@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <employeeID>12345</employeeID>
+        <personalInfo>
+            <firstName>Sreenath</firstName>
+            <lastName>v</lastName>
+            <Dob>2001-12-12</Dob>
+            <gender>Male</gender>
+        </personalInfo>
+        <EmployeeInfo>
+            <position>Senior Manager</position>
+            <salary>200000</salary>
+        </EmployeeInfo>
+        <contactInfo>
+            <email>sreenath@gmail.com</email>
+            <phoneNumber>9876543210</phoneNumber>
+        </contactInfo>
+    </employee>
+    <employee>
+        <personalInfo>
+            <firstName>Joseph</firstName>
+            <lastName>P</lastName>
+            <Dob>2001-12-13</Dob>
+            <gender>Male</gender>
+        </personalInfo>
+        <EmployeeInfo>
+            <position>Senior Manager</position>
+            <salary>2000000</salary>
+        </EmployeeInfo>
+        <contactInfo>
+            <email>joseph@gmail.com</email>
+            <phoneNumber>1234567890</phoneNumber>
+        </contactInfo>
+    </employee>
+    <employee>
+        <employeeID>1234</employeeID>
+        <personalInfo>
+            <firstName>Rishi</firstName>
+            <lastName>SR</lastName>
+            <Dob>2001-12-12</Dob>
+            <gender>Male</gender>
+        </personalInfo>
+        <EmployeeInfo>
+            <position>Senior Developer</position>
+            <salary>400000</salary>
+        </EmployeeInfo>
+        <contactInfo>
+            <email>rishi@gmail.com</email>
+            <phoneNumber>9875432437</phoneNumber>
+        </contactInfo>
+    </employee>
+    <employee>
+        <employeeID>12346</employeeID>
+        <personalInfo>
+            <firstName>Febin</firstName>
+            <lastName>Reji</lastName>
+            <Dob>2001-05-05</Dob>
+            <gender>Male</gender>
+        </personalInfo>
+        <EmployeeInfo>
+            <position>HR Manager</position>
+            <salary>500000</salary>
+        </EmployeeInfo>
+        <contactInfo>
+            <email>febin@gmail.com</email>
+            <phoneNumber>988875432437</phoneNumber>
+        </contactInfo>
+    </employee>    
+</employees>
