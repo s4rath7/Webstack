@@ -1,0 +1,74 @@
+[
+    {
+        "name": "High-Performance Gaming Laptop",
+        "description": "A gaming laptop with a powerful GPU, high refresh rate display, and RGB keyboard.",
+        "price": 1299.99,
+        "image_url": "https://example.com/images/gaming-laptop.jpg"
+    },
+    {
+        "name": "Smart Home Speaker",
+        "description": "A smart speaker with voice assistant integration and room-filling sound.",
+        "price": 149.99,
+        "image_url": "https://example.com/images/smart-speaker.jpg"
+    },
+    {
+        "name": "Ultra-Thin Ultrabook",
+        "description": "An ultra-thin ultrabook with a sleek aluminum body and long-lasting battery.",
+        "price": 1099.99,
+        "image_url": "https://example.com/images/ultrabook.jpg"
+    },
+    {
+        "name": "Action Camera",
+        "description": "A compact action camera for capturing adventures in 4K resolution.",
+        "price": 299.99,
+        "image_url": "https://example.com/images/action-camera.jpg"
+    },
+    {
+        "name": "Wireless Gaming Headset",
+        "description": "Wireless gaming headset with immersive 7.1 surround sound and noise-canceling mic.",
+        "price": 199.99,
+        "image_url": "https://example.com/images/gaming-headset.jpg"
+    },
+    {
+        "name": "Smart Refrigerator",
+        "description": "A smart refrigerator with touchscreen display and food inventory tracking.",
+        "price": 2499.99,
+        "image_url": "https://example.com/images/smart-refrigerator.jpg"
+    },
+    {
+        "name": "Drone with HD Camera",
+        "description": "A drone with a high-definition camera for aerial photography and videography.",
+        "price": 699.99,
+        "image_url": "https://example.com/images/drone.jpg"
+    },
+    {
+        "name": "Portable Projector",
+        "description": "A portable projector for big-screen entertainment anywhere you go.",
+        "price": 499.99,
+        "image_url": "https://example.com/images/projector.jpg"
+    },
+    {
+        "name": "Wireless Charging Pad",
+        "description": "A wireless charging pad for convenient device charging without cables.",
+        "price": 39.99,
+        "image_url": "https://example.com/images/charging-pad.jpg"
+    },
+    {
+        "name": "Smart Doorbell Camera",
+        "description": "A smart doorbell camera with motion detection and two-way audio.",
+        "price": 199.99,
+        "image_url": "https://example.com/images/smart-doorbell.jpg"
+    },
+    {
+        "name": "Gaming Keyboard",
+        "description": "A mechanical gaming keyboard with customizable RGB backlighting.",
+        "price": 79.99,
+        "image_url": "https://example.com/images/gaming-keyboard.jpg"
+    },
+    {
+        "name": "Wireless Sport Earbuds",
+        "description": "Wireless earbuds designed for active lifestyles with sweat resistance.",
+        "price": 79.99,
+        "image_url": "https://example.com/images/sport-earbuds.jpg"
+    }
+]
