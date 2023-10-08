@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+}
+
+h1{
+
+    font-size: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    filter:drop-shadow(4px 4px .5vh #291717);
+}
+.todo-entry
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    width:53vw;
+    margin-top: 9vh;
+    margin-bottom: 6vh;
+    margin-left: 2vh;
+}
+
+.todo-entry input
+{
+    outline: none;
+    border: none;
+    width:40vw;
+    height: 4vh;
+    border-radius: .5vh;
+    padding-left:1vw;
+    padding-right: 1vh;
+    font-size: 2vh;
+    margin-right: 2vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    filter: drop-shadow(5px 5px 3px #4b2b2b);
+}
+.todo-entry button
+{
+
+    width:10vw;
+    height: 4vh;
+    border: 1px solid #fff;
+    background: #222423;
+    color: #fff;
+    font-size: 2vh;
+    font-family:'Poppins', sans-serif ;
+    border-radius: .5vh;
+    cursor: pointer;
+}
+.todo-entry button i{
+
+    font-size: 2vh;
+    margin-left: 5px;
+}
+.todos
+{
+    display: flex;
+    flex-direction: column;
+    width:53vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:53vw;
+    height: 5vh;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600;
+    color:#373837;
+    background: #fff;
+    padding:1vh 2vh 4.5vh 4vh;
+    border-radius: .5vh;
+    border:2px solid #a3a1a1;
+    margin-bottom: 2vh;
+    margin-left: 3vw;
+
+}
+.todo-text
+{
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600;
+    color:#373837;
+
+}
+.todo-tool button
+{
+    border: none;
+    outline: none;
+    width:3vh;
+    height: 3vh;
+    background: transparent;
+    cursor: pointer;
+}
